@@ -115,8 +115,8 @@ export const Signup = () => {
             </div>
 
             <div className="relative flex items-center justify-center h-screen">
-                <div className="flex flex-col items-center">
-                    <form onSubmit={signupSubmit}>
+                <div className="flex flex-col items-center w-5/6 max-w-md p-6 ">
+                    <form onSubmit={signupSubmit} className="w-full space-y-4">
                         <input
                             type="text"
                             placeholder="Enter username"
@@ -177,19 +177,22 @@ export const Signup = () => {
                             placeholder="Enter Phone number"
                             value={Phone_num}
                             onChange={(e) => setPhone_num(e.target.value)}
-                            className="w-full p-2 border rounded-full border-fakatcolor bg-fakatcolor"
+                            className="w-full p-2 py-3 border rounded-full border-fakatcolor bg-fakatcolor"
                         />
                         {errorMessage && !/^\d{11}$/.test(Phone_num) && (
                             <div className="text-red-500">Invalid Phone number format. Phone number should be exactly 11 digits.</div>
                         )}
 
-                        <button type="submit" className="w-full p-2 border rounded-full border-fakatcolor bg-fakatcolor">
-                            Sign Up
-                        </button>
+                        <div className="flex justify-center">
+                            <button type="submit"
+                                className="justify-center w-40 h-10 p-1 font-semibold border-none rounded-full text-fakatcolor bg-fakatred button create-account-button">
+                                Sign Up
+                            </button>
+                        </div>
                     </form>
 
 
-                    {errorMessage && <div className="text-red-500">{errorMessage}</div>}
+                    {errorMessage && <div className="mt-4 text-red-500">{errorMessage}</div>}
                 </div>
             </div>
         </div>
