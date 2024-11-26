@@ -21,7 +21,7 @@ export const Adamjee = () => {
 
     const fetchLockers = async () => {
         try {
-            const response = await axios.get("http://localhost:5001/locker/getLockersInBuilding?Building_Name=Adamjee", {
+            const response = await axios.get("http://40.82.178.72:5001//locker/getLockersInBuilding?Building_Name=Adamjee", {
                 headers: {
                     'Authorization': `Bearer ${token}`,
                 },
@@ -93,14 +93,14 @@ export const Adamjee = () => {
         };
 
         try {
-            const addBookingResponse = await axios.post("http://localhost:5001/booking/addBooking", bookingData, {
+            const addBookingResponse = await axios.post("http://40.82.178.72:5001//booking/addBooking", bookingData, {
                 headers: {
                     'Authorization': `Bearer ${token}`,
                 },
             });
 
             if (addBookingResponse.status === 200) {
-                const bookingConfirmationResponse = await axios.post("http://localhost:5001/booking/bookingconfirmation", bookingData, {
+                const bookingConfirmationResponse = await axios.post("http://40.82.178.72:5001//booking/bookingconfirmation", bookingData, {
                     headers: {
                         'Authorization': `Bearer ${token}`,
                     },

@@ -9,7 +9,7 @@ const Tabledash = () => {
     useEffect(() => {
         const fetchBookingCount = async () => {
             try {
-                const response = await axios.get('http://localhost:5001/booking/bookingcount', {
+                const response = await axios.get('http://40.82.178.72:5001//booking/bookingcount', {
                     headers: {
                         'Authorization': `Bearer ${token}`,
                     }
@@ -23,7 +23,7 @@ const Tabledash = () => {
 
         const fetchLockerCount = async () => {
             try {
-                const response = await axios.get('http://localhost:5001/locker/getLockerCount', {
+                const response = await axios.get('http://40.82.178.72:5001//locker/getLockerCount', {
                     headers: {
                         'Authorization': `Bearer ${token}`,
                     }

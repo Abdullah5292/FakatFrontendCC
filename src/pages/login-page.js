@@ -28,7 +28,7 @@ export const Login = () => {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:5001/auth/login', {
+            const response = await axios.post('http://40.82.178.72:5001//auth/login', {
                 username,
                 password,
             });
