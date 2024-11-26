@@ -21,9 +21,9 @@ export const Tabba = () => {
 
     const fetchLockers = async () => {
         try {
-            const response = await axios.get("http://40.82.178.72:5001//locker/getLockersInBuilding?Building_Name=Tabba", {
+            const response = await axios.get("http://40.82.178.72:5001/locker/getLockersInBuilding?Building_Name=Tabba", {
                 headers: {
-                    'Authorization': `Bearer ${token}`,
+                    // 'Authorization': `Bearer ${token}`,
                 },
             });
             setLockers(response.data.data || []);
@@ -93,14 +93,14 @@ export const Tabba = () => {
         };
 
         try {
-            const addBookingResponse = await axios.post("http://40.82.178.72:5001//booking/addBooking", bookingData, {
+            const addBookingResponse = await axios.post("http://40.82.178.72:5001/booking/addBooking", bookingData, {
                 headers: {
                     'Authorization': `Bearer ${token}`,
                 },
             });
 
             if (addBookingResponse.status === 200) {
-                const bookingConfirmationResponse = await axios.post("http://40.82.178.72:5001//booking/bookingconfirmation", bookingData, {
+                const bookingConfirmationResponse = await axios.post("http://40.82.178.72:5001/booking/bookingconfirmation", bookingData, {
                     headers: {
                         'Authorization': `Bearer ${token}`,
                     },

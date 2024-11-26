@@ -16,7 +16,7 @@ export const ResetPassword = () => {
 
     const handleResetPassword = async () => {
         try {
-            const response = await axios.post("http://40.82.178.72:5001//auth/resetpassword", {
+            const response = await axios.post("http://40.82.178.72:5001/auth/resetpassword", {
                 email,
                 resetToken,
                 newPassword

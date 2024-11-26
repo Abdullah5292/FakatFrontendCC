@@ -20,7 +20,7 @@ export const ForgotPassword = () => {
             email: email,
         };
         try {
-            const response = await axios.post("http://40.82.178.72:5001//auth/forgotpassword", PasswordResetData);
+            const response = await axios.post("http://40.82.178.72:5001/auth/forgotpassword", PasswordResetData);
             if (response.status === 200) {
                 alert("Password reset code sent successfully!");
                 // Redirect to a success page or reset the state

@@ -73,7 +73,7 @@ export const Signup = () => {
         }
 
         try {
-            const response = await axios.post('http://40.82.178.72:5001//auth/signUp', {
+            const response = await axios.post('http://40.82.178.72:5001/auth/signUp', {
                 username,
                 email,
                 password,

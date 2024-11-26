@@ -10,7 +10,7 @@ const GridUser = () => {
     useEffect(() => {
         const fetchUsers = async () => {
             try {
-                const response = await axios.get('http://40.82.178.72:5001//user/getUsers', {
+                const response = await axios.get('http://40.82.178.72:5001/user/getUsers', {
                     headers: {
                         'Authorization': `Bearer ${token}`,
                     },

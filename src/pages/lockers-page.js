@@ -15,7 +15,7 @@ export const Lockers = () => {
     useEffect(() => {
         const fetchLockers = async () => {
             try {
-                const response = await axios.get("http://40.82.178.72:5001//locker/getLockersInBuilding?Building_Name=Tabba", {
+                const response = await axios.get("http://40.82.178.72:5001/locker/getLockersInBuilding?Building_Name=Tabba", {
                     headers: {
                         'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFiZDUyOTIiLCJjcmVhdGVkQXQiOiIyMDI0LTA2LTAyVDEwOjAzOjIyLjE1NloiLCJhZG1pbiI6dHJ1ZSwiaWF0IjoxNzE3MzIyNjAyLCJleHAiOjE3MTc0MDkwMDJ9.NXZRxME5WpP_gV1CHLxrPJdWjRr77rcdi7Vl8QLfHDY`,
                     }

@@ -12,7 +12,7 @@ const Gridadmin = () => {
 
     const fetchBookings = async () => {
         try {
-            const response = await axios.get('http://40.82.178.72:5001//booking/bookings', {
+            const response = await axios.get('http://40.82.178.72:5001/booking/bookings', {
                 headers: {
                     'Authorization': `Bearer ${token}`,
                 }
@@ -45,7 +45,7 @@ const Gridadmin = () => {
 
     const handleAcceptBooking = async (id) => {
         try {
-            await axios.put('http://40.82.178.72:5001//booking/ApproveBooking', { Booking_Id: id }, {
+            await axios.put('http://40.82.178.72:5001/booking/ApproveBooking', { Booking_Id: id }, {
                 headers: {
                     'Authorization': `Bearer ${token}`,
                 }
@@ -58,7 +58,7 @@ const Gridadmin = () => {
 
     const handleRejectBooking = async (id) => {
         try {
-            await axios.put('http://40.82.178.72:5001//booking/cancelbooking', { Booking_Id: id }, {
+            await axios.put('http://40.82.178.72:5001/booking/cancelbooking', { Booking_Id: id }, {
                 headers: {
                     'Authorization': `Bearer ${token}`,
                 }
