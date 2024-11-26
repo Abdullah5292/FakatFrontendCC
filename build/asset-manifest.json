@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c9509600.css",
+    "main.js": "/static/js/main.91699763.js",
+    "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
+    "static/media/image1.jpg": "/static/media/image1.071ab544c600950691f6.jpg",
+    "static/media/CTAimage.png": "/static/media/CTAimage.e3a6c635ac658828d185.png",
+    "static/media/achievement.png": "/static/media/achievement.ea88986c952376c62c21.png",
+    "static/media/heroImg.png": "/static/media/heroImg.374cfe53d948d160b3ef.png",
+    "static/media/aman.png": "/static/media/aman.5b70df4c965d751ce91c.png",
+    "static/media/avatar.jpg": "/static/media/avatar.0ef6ce6bf7fb5923e9f7.jpg",
+    "static/media/logo1.png": "/static/media/logo1.42d9c67fab9f83b399b3.png",
+    "static/media/Side-logo.png": "/static/media/Side-logo.4d3d803f0d9a886ee2da.png",
+    "static/media/Forgotpass.png": "/static/media/Forgotpass.23b1b3d5027da7d9fc08.png",
+    "static/media/Fakat Locker name.png": "/static/media/Fakat Locker name.b652931030a8154b4a5a.png",
+    "static/media/logo.png": "/static/media/logo.9b76577fa0e610fe5445.png",
+    "static/media/adamjee.png": "/static/media/adamjee.a94b060247e122cf8c2f.png",
+    "static/media/close.svg": "/static/media/close.c54d8b9555a182a1add78758fa8e3ac9.svg",
+    "static/media/tabba.png": "/static/media/tabba.123af4a715cce0b9ff74.png",
+    "static/media/Fakat bg.png": "/static/media/Fakat bg.bf90bc4ff1fff07b6b22.png",
+    "static/media/hamburgerMenu.svg": "/static/media/hamburgerMenu.2e70bb476e612b1a7db95901892cfd18.svg",
+    "static/media/star-2768.svg": "/static/media/star-2768.a3e97cb0c6d1e2992770bdeb761c96d7.svg",
+    "static/media/lock.svg": "/static/media/lock.61096c626b7e15220182a3b52881ff02.svg",
+    "static/media/lock red.svg": "/static/media/lock red.ae300b39f0c9cc102f9973f93769c394.svg",
+    "static/media/rightArrow.svg": "/static/media/rightArrow.1dde10a64b29f8e7ced8ab2df18447bd.svg",
+    "index.html": "/index.html",
+    "main.c9509600.css.map": "/static/css/main.c9509600.css.map",
+    "main.91699763.js.map": "/static/js/main.91699763.js.map",
+    "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9509600.css",
+    "static/js/main.91699763.js"
+  ]
+}
