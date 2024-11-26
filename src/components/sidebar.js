@@ -1,10 +1,10 @@
 import React from 'react'
-import logo from '/Users/abdullah/Downloads/Fakat/Frontend/src/logo.png'
+import logo from '../logo1.png'
 import {
     LayoutDashboard, UsersRound, Book, Stars, BarChart2, LogOut
 } from 'lucide-react'
 import { useState } from 'react'
-import Arrow from "/Users/abdullah/Downloads/Fakat/Frontend/src/media/rightArrow.svg"
+import Arrow from "../media/rightArrow.svg"
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
@@ -32,6 +32,7 @@ function SideBar() {
         icons: Stars,
     },
     {
+
         name: "Analytics",
         icons: BarChart2,
     },
