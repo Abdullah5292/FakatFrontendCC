@@ -84,7 +84,7 @@ export const Signup = () => {
 
             const { msg, token } = response.data;
 
-            if (msg === "SignUp Successful" && token) {
+            if (msg === "SignUp Successful") {
                 Cookies.set('token', token, {
                     expires: 1 / 24,
                     path: "/",
